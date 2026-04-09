@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=GCAP 2025
+GenericName=Ganhos de Capital 2025
+Comment=Declare seus ganhos de capital (Ano-calendário 2025)
+Icon=br.gov.fazenda.receita.gcap2025
+Exec=exec.sh
+Categories=Office;Network;
+Keywords=dirpf;imposto;gcap;receitanet;
+StartupNotify=true
+StartupWMClass=br-gov-serpro-gcap-app-PGDGCAP

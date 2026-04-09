@@ -1,33 +1,33 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# GCAP2025-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/GCAP2025-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/GCAP2025-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/GCAP2025-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/GCAP2025-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/GCAP2025-AppImage)](https://github.com/pkgforge-dev/GCAP2025-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/pkgforge-dev/GCAP2025-AppImage/refs/heads/main/AppDir/br.gov.fazenda.receita.gcap2026.png" width="128" />
 </p>
 
 
-| Latest Stable Release | Upstream URL |
+| Última versão estável | URL de origem |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Clique aqui](https://github.com/pkgforge-dev/GCAP2025-AppImage/releases/latest) | [Clique aqui](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/gcap) |
 
 </div>
 
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage criado usando [sharun](https://github.com/VHSgunzo/sharun) e seu empacotador [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), que torna extremamente fácil transformar qualquer binário em um pacote portátil de forma confiável, sem usar contêineres ou truques semelhantes. 
 
-**This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
+**Este AppImage inclui tudo e deve funcionar em qualquer distribuição Linux, incluindo as antigas e baseadas em musl.**
 
-This AppImage doesn't require FUSE to run at all, thanks to the [uruntime](https://github.com/VHSgunzo/uruntime).
+Este AppImage não requer FUSE para funcionar, graças ao [uruntime](https://github.com/VHSgunzo/uruntime).
 
-This AppImage is also supplied with a self-updater by default, so any updates to this application won't be missed, you will be prompted for permission to check for updates and if agreed you will then be notified when a new update is available.
+Este AppImage também é fornecido com um atualizador automático por padrão, portanto, nenhuma atualização deste aplicativo será perdida. Você será solicitado a conceder permissão para verificar se há atualizações e, se concordar, será notificado quando uma nova atualização estiver disponível.
 
-Self-updater is disabled by default if AppImage managers like [am](https://github.com/ivan-hc/AM), [soar](https://github.com/pkgforge/soar) or [dbin](https://github.com/xplshn/dbin) exist, which manage AppImage updates.
+O atualizador automático é desativado por padrão se existirem gerenciadores de AppImage como [am](https://github.com/ivan-hc/AM), [soar](https://github.com/pkgforge/soar) ou [dbin](https://github.com/xplshn/dbin), que gerenciam atualizações de AppImage.
 
 <details>
   <summary><b><i>raison d'être</i></b></summary>
@@ -37,4 +37,4 @@ Self-updater is disabled by default if AppImage managers like [am](https://githu
 
 ---
 
-More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
+Mais informações em: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)

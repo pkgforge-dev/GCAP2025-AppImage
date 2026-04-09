@@ -8,4 +8,4 @@ Exec=exec.sh
 Categories=Office;Network;
 Keywords=dirpf;imposto;gcap;receitanet;
 StartupNotify=true
-StartupWMClass=serpro-ppgd-app-IRPFPGD
+StartupWMClass=br-gov-serpro-gcap-app-PGDGCAP

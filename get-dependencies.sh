@@ -16,8 +16,10 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
-wget https://downloadirpf.receita.fazenda.gov.br/irpf/2025/gcap/GCAP2025v1.5.zip
-bsdtar -xvf GCAP2025v1.5.zip --strip-components=1
+VERSION=1.5
+echo "$VERSION" > ~/version
+wget https://downloadirpf.receita.fazenda.gov.br/irpf/2025/gcap/GCAP2025v${VERSION}.zip
+bsdtar -xvf GCAP2025v${VERSION}.zip --strip-components=1
 rm -f *.zip
 
 mkdir -p ./AppDir/bin

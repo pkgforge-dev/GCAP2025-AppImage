@@ -12,10 +12,8 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-# Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
-
-# If the application needs to be manually built that has to be done down here
+echo "Getting app..."
+echo "---------------------------------------------------------------"
 VERSION=1.6
 echo "$VERSION" > ~/version
 wget https://downloadirpf.receita.fazenda.gov.br/irpf/2025/gcap/GCAP2025v${VERSION}.zip

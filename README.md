@@ -19,7 +19,7 @@
 
 ---
 
-AppImage criado usando [sharun](https://github.com/VHSgunzo/sharun) e seu empacotador [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), que torna extremamente fácil transformar qualquer binário em um pacote portátil de forma confiável, sem usar contêineres ou truques semelhantes. 
+AppImage criado usando [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), que torna extremamente fácil transformar qualquer binário em um pacote portátil de forma confiável, sem usar contêineres ou truques semelhantes. 
 
 **Este AppImage inclui tudo e deve funcionar em qualquer distribuição Linux, incluindo as antigas e baseadas em musl.**
 
